@@ -1,8 +1,5 @@
 #include <stdio.h>
-/**
- * main - print size
- * return 0
- * 
+
 int main()
 {
 	int intType;
@@ -10,9 +7,8 @@ int main()
 	long int s;
 	long long int b;
 	float f;
-	
-	printf("Size of a char: %zu byte(s)\n", sizeof(c));
-	printf("Size of a int: %zu byte(s)\n", sizeof(intType));
+
+	printf("Size of a int: %zu byte(s)n", sizeof(intType));
 	printf("Size of a long int: %zu byte(s)\n", sizeof(s));
 	printf("Size of a long long int: %zu byte(s)\n", sizeof(b));
 	printf("Size of a float: %zu byte(s)\n",sizeof (f));
