@@ -5,12 +5,13 @@
  * main - print the last digit of a randomly generated number
  *        and whether it is greater than 5, less than 6, or 0.
  *
- * return (0)
+ * Return:int
  */
 
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if ((n % 10) > 5)
