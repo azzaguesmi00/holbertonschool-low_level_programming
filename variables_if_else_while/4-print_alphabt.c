@@ -1,4 +1,5 @@
-#include <stdio.h>/**
+#include <stdio.h>
+/**
  * main - Prints the alphabet in lowercase  except q and e
  * followed by a new line.
  * Return: Always 0.
@@ -13,7 +14,6 @@ int main(void)
 		if (i != 'e' && i != 'q')
 			putchar(i);
 	}
-	
 	putchar('\n');
 	return (0);
 }
