@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * add -adds two values
+ * Add - Adds two values
  * @i1: the first number to be computed
  * @i2: the second number to be computed
  *
