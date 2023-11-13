@@ -1,4 +1,5 @@
 #include <main.h>
+
 /**
  * isupper- check for uppercase character
  * 0c: the character to be checked
