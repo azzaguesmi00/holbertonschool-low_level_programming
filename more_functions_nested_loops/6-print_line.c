@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
+/**
  * print_line - print straight line in the terminal
- * @n : is the number of times the character _ should be printed
- * Return : void
+ * @n: is the number of times the character _ should be printed
+ * Return : 0
  *
  */
 void print_line(int n)
