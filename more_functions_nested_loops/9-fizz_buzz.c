@@ -2,6 +2,7 @@
 
 /**
  * main- print from 0 to 100
+ *
  * Multiples of 3 print fizz
  * Multiples of 5 print buzz
  *
@@ -10,6 +11,7 @@
 int main(void)
 {
 	int i;
+
 	for (i = 0; i < 101; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
