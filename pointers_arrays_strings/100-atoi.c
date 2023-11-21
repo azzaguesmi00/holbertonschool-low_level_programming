@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _atoi - convert a string to an integer
+ * _atoi - convert a string to an integer
  * @s: the string to b converted
  * Return :integer value of the converted string
  */
@@ -20,8 +20,7 @@ int _atoi(char *s)
 		else if (total > 0)
 			break;
 
-	}
-	 while (*s++);
+	} while (*s++);
 
 	return (total * sign);
 }
