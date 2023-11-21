@@ -20,7 +20,8 @@ int _atoi(char *s)
 		else if (total > 0)
 			break;
 
-	} while (*s++);
+	}
+	 while (*s++);
 
 	return (total * sign);
 }
