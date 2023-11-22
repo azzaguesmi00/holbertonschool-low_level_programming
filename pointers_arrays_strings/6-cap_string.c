@@ -6,6 +6,7 @@
  *Return : 0
  */
 char *cap_string(char *s)
+
 {
 	int i, cap, l = 0;
 
