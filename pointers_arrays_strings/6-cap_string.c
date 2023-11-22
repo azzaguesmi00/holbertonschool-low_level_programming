@@ -3,10 +3,9 @@
 /**
  * cap_string -capitalizes all words of a string.
  * @s: string
- *Return : 0
+ *Return : char
  */
 char *cap_string(char *s)
-
 {
 	int i, cap, l = 0;
 
