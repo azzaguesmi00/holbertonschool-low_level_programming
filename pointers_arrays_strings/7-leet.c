@@ -1,43 +1,29 @@
 #include "main.h"
 /**
- * leet - encode string to 1337
+ * *leet - encode string to 1337
  * @s: string to encode
  *
- * return : pointer
+ * return : 0
  */
 char *leet(char *s)
 {
-	int i
+	unsigned int i;
+	char c[] = {'A', 'E', 'O', 'T', 'L'};
+	int n[] = {4, 3, 0, 7, 1};
+	char *str = s;
 
-		for (i = 0; s[i] != '\0'; ++i)
+	while (*s)
 	{
-
-		if ((s[i] == 'a' || s[i] == 'A') ||
-			(s[i] == 'e' || s[i] == 'E') ||
-			(s[i] == 'o' || s[i] == 'O') ||
-			(s[i] == 't' || s[i] == 'T') ||
-			(s[i] == 'l' || input[i] == 'L'))
+		for (i = 0; i < sizeof(c) / sizeof(char); i++)
 		{
-			s[i] = '4';
+			if (*s == c[i] || *s == c[i] + 32)
+			{
+				*s = 48 + n[i];
+			}
 		}
-		else if (s[i] == 'e' || s[i] == 'E')
-		{
-			s[i] = '3';
-		}
-		else if (s[i] == 'o' || s[i] == 'O')
-		{
-			s[i] = '0';
-		}
-		else if (s[i] == 't' || s[i] == 'T')
-		{
-			s[i] = '7';
-		}
-		else if (s[i] == 'l' || s[i] == 'L')
-		{
-			s[i] = '1'; // Replace with 1
-		}
+		s++;
 	}
-
-	return (s);
+	return (str);
 }
+
 
