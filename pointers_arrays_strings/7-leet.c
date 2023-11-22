@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _leet - encode string to 1337
+ * leet - encode string to 1337
  * @s: string to encode
  *
  * return : pointer
