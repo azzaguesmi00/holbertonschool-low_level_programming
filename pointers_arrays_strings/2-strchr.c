@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+#include <stdio.h>
 
 /**
  * _strchr-locates a character in a string.
@@ -15,7 +17,7 @@ char *_strchr(char *s, char c)
 
 	while (i < len + 1)
 	{
-		if (s[i] == C)
+		if (s[i] == c)
 		{
 			s = s + 1 
 			break;
