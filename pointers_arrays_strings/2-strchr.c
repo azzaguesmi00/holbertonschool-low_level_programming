@@ -4,7 +4,7 @@
 
 /**
  * _strchr-locates a character in a string.
- * @s: string 
+ * @s: string
  * @c:character to locate
  * Return : 0
  */
@@ -13,9 +13,8 @@ char *_strchr(char *s, char c)
 
 {
 	int i, len = 0 ;
-	
-	len = strlen(s);
 
+	len = strlen(s);
 	while (i < len + 1)
 	{
 		if (s[i] == c)
