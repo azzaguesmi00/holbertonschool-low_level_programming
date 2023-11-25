@@ -13,6 +13,7 @@ char *_strchr(char *s, char c)
 
 {
 	int i, len = 0 ;
+	
 	len = strlen(s);
 
 	while (i < len + 1)
