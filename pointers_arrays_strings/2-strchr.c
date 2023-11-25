@@ -24,7 +24,7 @@ char *_strchr(char *s, char c)
 		}
 		i++;
 	}
-	if (*s = !c)
+	if (*s != c)
 		return (NULL);
 	return (s);
 }
