@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <string>
+#include <string.h>
 
 /**
  * is_prime_number - chech the code.
