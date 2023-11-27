@@ -1,0 +1,1 @@
+RECURSION is the process of defining a problem (or the solution to a problem) in terms of (a simpler version of) itself. For example, we can define the operation "find your way home" as: If you are at home, stop moving. Take one step toward home. "find your way home".
