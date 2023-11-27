@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/** print_diagsums - print the diagonal of square matrix
+/** 
+ * print_diagsums - print the diagonal of square matrix
  * @a: the name of the array
  * @size: the size of the array
  * Return: nothing
