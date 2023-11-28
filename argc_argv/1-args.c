@@ -9,7 +9,7 @@
 int main(int argc, char *argv[])
 
 {
-	(void)argc;
+	(void)argv;
 
 	printf("Number of arguments: %d\n", argc - 1);
 
