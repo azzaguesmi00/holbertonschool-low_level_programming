@@ -16,5 +16,10 @@ int main(int argc, char *argv[])
 	{
 		printf("%s/n", argv[i]);
 	}
+	if (i < argc - 1)
+	{
+		printf("\n");
+	}
+
 	return (0);
 }
