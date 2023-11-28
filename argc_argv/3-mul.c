@@ -9,12 +9,12 @@
  */
 int main(int argc, char *argv[])
 {
-	int res;
+	int mul;
 
 	if (argc != 3)
 	{
-		res = _atoi(argv[1]) * _atoi (argv[2])
-		printf("%d\n", res);
+		mul = atoi(argv[1]) * atoi (argv[2])
+		printf("%d\n", mul);
 	}
 	else{
 		printf ("Error\n");
