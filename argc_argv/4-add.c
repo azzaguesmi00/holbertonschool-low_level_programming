@@ -1,4 +1,7 @@
 #include <stdlib.h>
+#include "main.h"
+#include <stdio.h>
+
 /**
  *main - print positive numbers
  *@argc: int
