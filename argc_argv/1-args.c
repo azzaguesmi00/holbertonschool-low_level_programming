@@ -5,7 +5,7 @@
  * main -check the code
  * @argv: char
  * @argc: int
- * Return : int
+ * Return: int
  */
 int main(int argc, char *argv[])
 {
