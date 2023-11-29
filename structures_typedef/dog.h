@@ -4,7 +4,6 @@
 #include <stdio.h>
 
 /**
- * main- check the code
  * struct dog- description of the dog
  * @name: name of the dog
  * @age: old of the dog
