@@ -2,9 +2,9 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * get_op_func- excute operation
+ * get_op_func - excute operation
  * @s: struct op
- * Return : int
+ * Return: int
  */
 int (*get_op_func(char *s))(int, int)
 {
