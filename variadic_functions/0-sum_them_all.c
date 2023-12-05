@@ -2,7 +2,7 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all : gives the sum of all operators
+ * sum_them_all - gives the sum of all operators
  * @n: unsigned int
  * Return: int
  */
@@ -18,6 +18,6 @@ int sum_them_all(const unsigned int n, ...)
 		x += va_arg(ptr, int);
 
 	va_end(ptr);
-	
+
 	return (x);
 }
