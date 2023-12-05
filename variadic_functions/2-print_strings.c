@@ -1,3 +1,5 @@
+#include <stdarg.h>
+#include <stdio.h>
 #include "variadic_functions.h"
 
 /**
@@ -24,18 +26,19 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_end(ptr);
 	printf("\n");
 
-	/**
-	 * strings - return string
-	 * @s: char
-	 * Return: char
-	 */
-	char *strings(char *s)
-	{
-		char *x = "(nil)";
+/**
+ * strings - return string
+ * @s: char
+ * Return: char
+ */
+char *strings(char *s)
+{
+	char *x = "(nil)";
 
-		if (s == NULL)
-		{
-			return (x);
-		}
-		return (s);
+	if (s == NULL)
+	{
+		return (x);
 	}
+	return (s);
+}
+
