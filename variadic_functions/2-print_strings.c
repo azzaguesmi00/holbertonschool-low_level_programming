@@ -6,7 +6,7 @@
  * print_strings - print strings
  * @separator: char
  * @n: int
- * Return: char
+ * Return: void
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -17,11 +17,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_start(ptr, n);
 	for (i = 0; i < n; i++)
 	{
-		printf("%s", va_arg(ptr, i));
+		printf("%s", va_arg(ptr, int));
 		if (i != n - 1)
 			printf("%s", separator);
 		else
-			printf("\n")
+			printf("\n");
 	}
 	va_end(ptr);
 }
