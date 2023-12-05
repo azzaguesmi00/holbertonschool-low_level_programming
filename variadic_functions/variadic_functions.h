@@ -1,6 +1,7 @@
 #ifndef VARIADIC_FUNC
 #define VARIADIC_FUNC
-
+#include <stdarg.h>
+#include <stdio.h>
 
 /**
  * struct op - Struct op
