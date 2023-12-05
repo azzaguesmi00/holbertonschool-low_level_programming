@@ -3,29 +3,29 @@
 #include "variadic_functions.h"
 
 /**
- * print_strings - print strings
- * @separator: char
- * @n: int
+ * print_strings - Check the code.
+ * @n:  unsigned int
+ * @separator: char pointer
  * Return: void
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
+	va_list arg;
 	unsigned int i;
 
-	va_list ptr;
+	va_start(arg, n);
 
-	va_start(ptr, n);
 	for (i = 0; i < n; i++)
 	{
-		printf("%c", strings(va_arg(ptr, char)));
-		if (separator != NULL && i < n - 1)
+		printf("%s", strings(va_arg(arg, char *)));
+		if ((separator != NULL) & (i < n - 1))
 		{
 			printf("%s", separator);
 		}
 	}
-	va_end(ptr);
+	va_end(arg);
 	printf("\n");
-
+}
 /**
  * strings - return string
  * @s: char
@@ -41,4 +41,3 @@ char *strings(char *s)
 	}
 	return (s);
 }
-
