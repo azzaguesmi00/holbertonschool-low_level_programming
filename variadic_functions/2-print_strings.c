@@ -10,17 +10,18 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
+	unsigned int i;
 
-	unsigned int counter;
-	va_list p;
-	va_start(p, n);
-	for (counter = 0; counter < n; counter++)
+	va_list ptr;
+
+	va_start(ptr, n);
+	for (i = 0; i < n; i++)
 	{
-		printf(“%s”, va_arg(p(p, counter));
-		if (counter != n — 1)
- 			printf(“%s”, separator);
+		printf("%s", va_arg(ptr, i));
+		if (i != n - 1)
+			printf("%s", separator);
 		else
- 			printf(“\n”);
+			printf("\n")
 	}
-	va_end(p);
+	va_end(ptr);
 }
