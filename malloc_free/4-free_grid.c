@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * free_grid - check the code
- * @grid: int 
- * @height: height 
+ * @grid: int
+ * @height: height
  * Return: 0 or null
  */
 void free_grid(int **grid, int height)
