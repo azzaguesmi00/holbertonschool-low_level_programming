@@ -1,2 +1,2 @@
 Linked List is a linear data structure, in which elements are not stored at a contiguous location, rather they are linked using pointers. Linked List forms a series of connected nodes, where each node stores the data and the address of the next node.
-![Alt text](image.png)
+https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png
