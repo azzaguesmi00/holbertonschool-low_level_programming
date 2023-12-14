@@ -3,7 +3,7 @@
 /**
  * print_dlistint - check the code
  * @h: pointer
- * 
+ *
  * Return: null or 0
 */
 size_t print_dlistint(const dlistint_t *h)
