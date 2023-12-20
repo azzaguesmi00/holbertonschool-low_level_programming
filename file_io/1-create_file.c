@@ -4,10 +4,10 @@
  * @filename: const char
  * @text_content: char
  * Return: num of bytes or 0 if error
-*/
+ */
 int create_file(const char *filename, char *text_content)
 {
-    int i, n;
+	int i, n;
 
 	if (!text_content)
 		n = 0;
